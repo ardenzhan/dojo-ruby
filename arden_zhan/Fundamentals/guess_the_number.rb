@@ -9,3 +9,5 @@ def guess_number guess
 end
 
 puts guess_number 25
+puts guess_number 100
+puts guess_number 0
