@@ -4,12 +4,18 @@ class Samurai < Human
     @@samurai_count = 0
 
     def initialize
+        super
         @health = 200
         @@samurai_count += 1
     end
 
     def death_blow(obj)
-        obj.health = 0
+        if obj.class.ancestors.include?(Human)
+            obj.health = 0
+            true
+        else
+            false
+        end
     end
 
     def meditate
@@ -19,5 +25,4 @@ class Samurai < Human
     def self.how_many
         puts @@samurai_count
     end
-    
 end
