@@ -10,4 +10,8 @@ class User < ActiveRecord::Base
   
     validates :email_address, uniqueness: { case_sensitive: false }, format: { with: EMAIL_REGEX }
     validates :first_name, :last_name, :email_address, presence: true
+
+
+    has_many :comments, as: :commentable
+    
 end
