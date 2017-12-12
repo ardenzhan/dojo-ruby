@@ -8,7 +8,7 @@ class StudentsController < ApplicationController
         @student = Student.new(student_params)
 
         if @student.save
-            redirect_to "/dojos/#{@student.dojo_id}", notice: "Created Student"
+            redirect_to dojo_path(@student.dojo_id), notice: "Created Student"
         else
             flash[:errors] = @student.errors.full_messages
             redirect_to :back
