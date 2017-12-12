@@ -1,0 +1,21 @@
+<h1>Listing <%= pluralize(@dojos.count, "Dojo", "Dojos") %></h1>
+<!-- pluralize(count, 'singular_string', 'plural_string') -->
+
+<table>
+	<thead>
+		<th>Coding Dojo Branch</th>
+		<th>Street</th>
+		<th>City</th>
+		<th>State</th>
+	</thead>
+	<tbody>
+		<% @dojos.each do |dojo| %>
+		<tr>
+			<td><%= dojo.branch %></td>
+			<td><%= dojo.street %></td>
+			<td><%= dojo.city %></td>
+			<td><%= dojo.state %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
