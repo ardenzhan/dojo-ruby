@@ -1,11 +1,4 @@
 Rails.application.routes.draw do
-
-  get 'likes/create'
-
-  get 'likes/destroy'
-
-  get 'secrets/index'
-
   resources :sessions, only: [:new, :create, :destroy]
   resources :users
   resources :secrets, only: [:index, :create, :destroy]
