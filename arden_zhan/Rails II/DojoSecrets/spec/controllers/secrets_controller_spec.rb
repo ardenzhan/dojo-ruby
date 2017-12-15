@@ -12,4 +12,9 @@ RSpec.describe SecretsController, type: :controller do
     it "cannot access create"
     it "cannot access destroy"
   end
+
+  context "when signed in as the wrong user" do
+    it "cannot destroy another user's secret"
+  end
+
 end

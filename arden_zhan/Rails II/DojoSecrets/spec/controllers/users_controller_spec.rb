@@ -15,4 +15,12 @@ RSpec.describe UsersController, type: :controller do
     it "cannot access update"
     it "cannot access destroy"
   end
+
+  context "when signed in as the wrong user" do
+    it "cannot access profile page another user"
+    it "cannot access the edit page of another user" 
+    it "cannot update another user"
+    it "cannot destroy another user"
+  end
+
 end
