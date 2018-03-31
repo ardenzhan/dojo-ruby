@@ -18,7 +18,7 @@ The name is 'Jennifer Smith'
 =end
 
 def names(hash)
-    puts "You have #{hash.length} names in the 'names' array" #figure out how to print name of variable later
+    puts "You have #{hash.size} names in the 'names' array"
     hash.each { |i| puts "The name is '#{i[:first_name]} #{i[:last_name]}'"}
 end
 names(names)

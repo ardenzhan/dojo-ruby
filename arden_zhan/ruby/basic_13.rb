@@ -14,14 +14,14 @@
 # [1,3,5,7,9,13].each { |i| puts i }
 
 # Find Max
-# def findMax arr
-#     puts arr.max
+# def findMax(arr)
+#   puts arr.max
 # end
 # findMax [-3, -5, -7]
 
 # Get Average
-# def getAvg arr
-#     puts "Average: " + (arr.reduce(:+) / arr.length.to_f).to_s
+# def getAvg(arr)
+#   puts "Average: " + (arr.reduce(:+) / arr.length.to_f).to_s
 # end
 # getAvg [2, 11, 3]
 
@@ -33,23 +33,23 @@
 # Greater Than Y
 # arr = [1,3,5,7]
 # y = 3
-# def greaterY(arr, y)
-#     return arr.count { |i| i > y }
+# def greater_than(arr, y)
+#   return arr.count { |i| i > y }
 # end
-# puts greaterY(arr, y)
+# puts greater_than(arr, y)
 
 # Square the values
 # x = [1, 5, 10, -2]
-# x.collect! { |i| i*i }
-# puts x
+# x.map! { |i| i*i }
+# puts x.to_s
 
 # Eliminate Negative Numbers
-# x = [1, 5, 10, -2]
-# puts x.each_index { |i| x[i] = 0 if x[i] < 0 }
+x = [1, 5, 10, -2]
+puts x.each_index { |i| x[i] = 0 if x[i] < 0 }.to_s
 
 # Max, Min, and Average
 # x = [1, 5, 10, -2]
-# hash = { max: x.max, min: x.min, avg: x.reduce(:+) / x.length.to_f }
+# hash = { 'max': x.max, 'min': x.min, 'avg': x.reduce(:+) / x.length.to_f }
 # puts hash
 
 # Shifting the Values in the Array
@@ -59,4 +59,4 @@
 
 # Number to String
 x = [-1, -3, 2]
-puts x.each_index { |i| x[i] = "Dojo" if x[i] < 0 }
+puts x.each_index { |i| x[i] = "Dojo" if x[i] < 0 }.to_s

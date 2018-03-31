@@ -1,12 +1,8 @@
 # Range
-=begin
-
-.include?(value) => true or false
-.last => returns last object in range
-.max => returns maximum value in range
-.min => returns minimum value in range
-
-=end
+# .include?(value) => true or false
+# .last => returns last object in range
+# .max => returns maximum value in range
+# .min => returns minimum value in range
 
 a = (1..10)
 puts a.include?(15)
