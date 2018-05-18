@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  root  'says#index'
+
+  get 'hello' => 'says#hello'
+  get 'say/hello(/:name)' => 'says#name' 
+
+  get 'times' => 'says#times'
+  get 'times/restart' => 'says#restart'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
