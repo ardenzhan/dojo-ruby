@@ -19,9 +19,12 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
+  def update
+    User.find(params[:id]).update(name: params[:name])
+    redirect_to "/users/#{params[:id]}"
+  end
+
   def total
     render json: { total: User.count }
   end
-
-
 end
