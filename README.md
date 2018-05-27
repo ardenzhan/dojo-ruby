@@ -1,10 +1,9 @@
-# Coding Dojo - Ruby on Rails October 2017
+# Coding Dojo - Ruby on Rails December 2017
 
 Welcome Rubyists 
 
 > “Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run faster. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves.”
 - Yukihiro Matsumoto
-
 
 ## Setup
  1. Fork this repo to your github account.
@@ -15,7 +14,8 @@ Welcome Rubyists
 git remote add upstream https://github.com/codingdojodallas/ruby_dec_2017
 ```
  5. Profit!
-# Daily Commits
+
+## Daily Commits
 
 Please commit daily. That way we can provide you with feedback :) or just a thumbs up if everything looks good. Here is a good resource that describes how daily commit process should go.
 
@@ -26,16 +26,25 @@ NOTE: If you don't get in at least one pull request daily, then *_ya ain't serio
 ## Videos
 Virtualbox/Vagrant - https://youtu.be/ipEVDCdk3po <br>
 Fundamentals - https://youtu.be/cFdMPCl1Rr0 <br>
+OOP - https://youtu.be/Lr1YSKSVM8Q <br>
+Ruby Olympics / Rails Intro - https://youtu.be/bsimKSJ3Ofo <br>
+Models (Validations/Migrations/Relationships) - https://youtu.be/hL5N8HBsw4w <br>
+Self-join - https://youtu.be/ScTp79u6nMU <br>
+Routes/Controllers Lecture - https://youtu.be/phoKZVMg4-4 <br>
+Controllers - https://youtu.be/k4ttpRgRGV8 <br>
+Forms / Named Routes - https://youtu.be/B3mOcqreZnk <br>
+Layouts / Nested Resources - https://youtu.be/CCRa8GhtJ54 <br>
+Rails TDD - https://youtu.be/zTjWLJdkyDo <br>
+Authentication - https://youtu.be/z3YImITMi8E (Login and Registration) <br>
+Controller Filters - https://youtu.be/b1MxUVZttkE <br>
+Login/Registration Port & Concepts Practice - https://youtu.be/854a-1CAEfo <br>
+Belt Reviewer - https://youtu.be/4YxCpdPq1pI <br>
+Postgres Self-Join Many-To-Many - https://youtu.be/wSD-yTp2cdw <br>
+Deployment - https://youtu.be/kw_aI59tr98 <br>
 
-
-Self Join Many To Many - https://youtu.be/fhCNn1XTuy0 <br>
-Social Network, Self Join Many To Many https://youtu.be/_OsYvpndaX4
-
-Relations are Hard - https://youtu.be/YW6X53ia2Z8 <br>
-
-Deployment - https://youtu.be/V2Frb35zpBA <br>
-
-Sort by count of a relation - https://youtu.be/p5UOxHR2200 <br>
+## Demos
+Ninja Gold - https://youtu.be/KvHGoN-kw-s <br>
+Student Dashboard - https://youtu.be/WiQegfcDzpw <br>
 
 ## Resources
 
