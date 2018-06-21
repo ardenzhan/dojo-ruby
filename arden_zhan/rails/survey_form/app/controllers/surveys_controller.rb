@@ -4,13 +4,13 @@ class SurveysController < ApplicationController
   end
 
   def process_survey
-	session[:views] = session[:views] + 1
+    session[:views] = session[:views] + 1
 
-	session[:result] = params[:survey]
+    session[:result] = params[:survey]
 
-	flash[:success] = "Thanks for submitting this form! You have submitted this form #{ session[:views] } time(s) now."
+    flash[:success] = "Thanks! Form submitted #{ session[:views] } time(s) now."
 
-	redirect_to surveys_result_path
+    redirect_to surveys_result_path
   end
 
   def result
