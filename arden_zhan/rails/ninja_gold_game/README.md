@@ -9,7 +9,7 @@ Your job is to create a web app that allows this ninja to earn gold and to displ
 ### Guidelines:
 * Refer to the wireframe below.
 * Have a controller called **Rpg**.
-* Have 4 buttons / forms in your project that map to a method in your rpg controller: farm, cave, casino, house
+* Have 4 buttons / forms in your project that map to a method in your **rpg controller: farm, cave, casino, house**
 * You should send each different user action to a different method in your RpgController.
 * Have your controller determine how much gold the user should have and use session effectively.
 
